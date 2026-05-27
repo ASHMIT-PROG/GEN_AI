@@ -20,7 +20,7 @@ elif(operator=="c"):
     print(f"{value} KG = {value*1000} Gram")
 
 elif(operator=="d"):
-    print(f"{value} Celsius = {(value*9/5)+32} Fahrenheit")
+    print(f"{value} Celsius = {(value*9/5)+32} Fahrenheit")   
 
 else:
     print("Invalid Operator")
