@@ -17,3 +17,4 @@ print("Remainder =", remainder)
 # check the type of variable 
 
 print (type(remainder))
+
