@@ -1,21 +1,11 @@
-
-
-#------------------------------------------------------------------------
-
-username=input("Enter username: ")
-
+username=input("Enter username: ").strip()#strip() will remove all the spacs from left and right 
 password=input("Enter password: ")
 
-if(password.isdigit()):
+if(password.isdigit()):#check that the password entered is digit or not , works only on string
 
-    password=int(password)
+    if(username == "raman"):
 
-    username_correct = (username == "raman")
-    password_correct = (password == 123)
-
-    if(username_correct == True):
-
-        if(password_correct == True):
+        if(int(password) == 123):
             print("Login Successful")
 
         else:
